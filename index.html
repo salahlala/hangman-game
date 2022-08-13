@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hang Man</title>
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <div class="container">
+      <div class="category">
+        <p>Word From : <span></span></p>
+        <div class="hint"></div>
+      </div>
+      <div class="human">
+        <div class="the-draw">
+          <div class="the-column"></div>
+          <div class="the-stick"></div>
+          <div class="the-rope"></div>
+          <div class="man">
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="hands"></div>
+            <div class="legs"></div>
+          </div>
+        </div>
+      </div>
+      <div class="letters"></div>
+      <div class="letters-gusess"></div>
+      <div class="instructions">
+        <p>
+          -You will be presented with a number of blank spaces representing the
+          missing letters you need to find.
+        </p>
+        <p>-Use the keyboard to guess a letter</p>
+        <p>
+          -If your chosen letter exists in the answer, then all places in the
+          answer where that letter appear will be revealed.
+        </p>
+        <p>
+          -Be warned, every time you guess a letter wrong you loose a life and
+          the hangman begins to appear, piece by piece.
+        </p>
+        <p>
+          -After you've revealed several letters, you may be able to guess what
+          the answer is and fill in the remaining letters.
+        </p>
+        <p>-Solve the puzzle before the hangman dies.</p>
+        <p>-You can use a hint one step before a hangman dies</p>
+        <p>-you can't use the hint if you have one blank space</p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
